@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Meu Site HTML</title>
+    </head>
+    <body style="margin: 0;">
+        <div>
+            <header style="background-color: aquamarine; padding: 20px;" id="topo">
+            <h1 style="text-align: left; font-size: 85px;">HTML<sup>Linguagem de marcação de Hipertexto</sup></h1>
+            <h3 style="text-align: center; font-size: 30px; margin-bottom: 20px;"><b>Tutoriais para iniciantes</b><h3>
+            </header>
+            <nav>
+                <ul style="list-style: none; display: flex; justify-content: space-between; background-color: aquamarine; padding: 20px;">
+                    <li style="color: white; text-decoration: none;"><a href="index.html">Início</a></li>
+                    <li style="color: white; text-decoration: none;"><a href="index.html#html">HTML</a></li>
+                    <li style="color: white; text-decoration: none;"><a href="index.html#tabela">Tabelas e Listas</a></li>
+                    <li style="color: white; text-decoration: none;"><a href="index.html#sobre">Sobre HTML, CSS e JS</a></li>
+                    <li style="color: white; text-decoration: none;"><a href="index.html#link">Links</a></li>
+                    <li style="color: white; text-decoration: none;"> <a href="index.html#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <form action="obrigado.html" method="get">
+                <label>Nome: </label>
+                <input type="text" name="nome" required><br>
+                <label>E-mail: </label>
+                <input type="email" name="email" required><br>
+                <label>Assunto: </label>
+                <select name="assunto">
+                    <option value="sugestao">Sugestão</option>
+                    <option value="critica">Crítica</option>
+                    <option value="elogio" selected>Elogio</option>
+                </select><br>
+                <label>Mensagem: </label>
+                <!--input type="text" name="mesagem"><br>-->
+                <textarea name=" mensagem" required></textarea><br>
+                <input type="checkbox" name="termo" value="Concordo com os Termos" required>
+                <label>Concordo com os Termos de Privacidade do Site</label><br>
+                <input type="submit" value="Envia Mensagem">
+            </form>
+        </div>
+        <footer id="rodape" style="padding: auto;">
+            <div style="display: grid; grid-template-columns: auto auto auto auto; align-items: center;">
+                <div id="sobre", style="background-color: rgb(200, 196, 196);">
+                    <h3>Sobre</h3>
+                    <ul>
+                        <li><a href="index.html#topo">Topo</a></li>
+                        <li>Politica de Privacidade</li>
+                        <li><a href="index.html#contato">Fale Conosco</a></li>
+                    </ul>
+                </div>
+                <div id="link">
+                    <h3>Referências</h3>
+                    <ul>
+                        <li><a href="https://www.w3schools.com/">W3School</a></li>
+                        <li><a href="https://www.alura.com.br/">Alura</a></li>
+                        <li><a href="https://www.youtube.com/">Youtube</a></li>
+                    </ul>
+                </div>
+                <div style="background-color: rgb(200, 196, 196);">
+                    <h3>Tutoriais</h3>
+                    <ul>
+                        <li>Design</li>
+                        <li>Marketing</li>
+                        <li>Programação</li>
+                        <li>Tutoriais</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Outros Links</h3>
+                    <ul>
+                        <li><a href="https://www.udemy.com/">Udemy</a></li>
+                        <li><a href="https://www.devmedia.com.br/">devmedia</a></li>
+                        <li><a href="https://www.youtube.com/c/devemdobro">Dev em Dobro</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div>
+                <p style="text-align: center;"> Luiz Felipe Melo &copy;Direitos reservados</p>
+            </div>
+        </footer>
+    </body>
+</html>
