@@ -72,6 +72,23 @@
                 border: 2px solid rgb(25, 4, 46);
                 color: rgb(72, 2, 16);
             }
+            footer {
+                padding: auto;
+            }
+            .div1 {
+                display: grid; 
+                grid-template-columns: auto auto auto auto; 
+                align-items: center;
+            }
+            .div2 {
+                background-color: rgb(200, 196, 196);
+            }
+            .div3 {
+                background-color: rgb(200, 196, 196);
+            }
+            .p1 {
+                text-align: center;
+            }
         </style>
     </head>
     <body>
@@ -202,9 +219,9 @@
                     </p>
                 </section>
             </section>
-            <footer id="rodape" style="padding: auto;">
-                <div style="display: grid; grid-template-columns: auto auto auto auto; align-items: center;">
-                    <div id="sobre", style="background-color: rgb(200, 196, 196);">
+            <footer id="rodape", class="footer">
+                <div class="div1">
+                    <div id="sobre", class="div2">
                         <h3>Sobre</h3>
                         <ul>
                             <li><a href="index.html#topo">Topo</a></li>
@@ -220,7 +237,7 @@
                             <li><a href="https://www.youtube.com/c/devemdobro">Dev em Dobro</a></li>
                         </ul>
                     </div>
-                    <div style="background-color: rgb(200, 196, 196);">
+                    <div class="div3">
                         <h3>Tutoriais</h3>
                         <ul>
                             <li>Design</li>
@@ -239,7 +256,7 @@
                     </div>
                 </div>
                 <div>
-                    <p style="text-align: center;"> Luiz Felipe Melo &copy;Direitos reservados</p>
+                    <p class="p1"> Luiz Felipe Melo &copy;Direitos reservados</p>
                 </div>
             </footer>
         </div>
